@@ -1,0 +1,24 @@
+# Core Libraries
+fastapi  # API framework for handling requests
+uvicorn  # ASGI server to run the FastAPI application
+
+# AI & NLP Libraries
+langchain  # Framework to connect the LLM model with the retrieval system
+langchain-community  # Required for LangChain embeddings
+faiss-cpu  # Library for efficient embedding storage and search
+sentence-transformers  # Library to generate embeddings for free
+
+# PDF Processing
+pypdf  # Extracts text from PDFs
+
+# Frontend
+streamlit  # Web interface for user interaction
+requests  # Allows API requests from Streamlit
+
+# Environment Variables
+python-dotenv  # Manages API keys and configuration files
+
+# Testing (Optional)
+pytest  # Runs unit tests
+loguru  # Register time information
+

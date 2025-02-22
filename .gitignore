@@ -1,0 +1,8 @@
+# Ignore test env
+testenv/
+
+#Another files
+*.pyc
+*.log
+.DS_Store
+__pycache__/
