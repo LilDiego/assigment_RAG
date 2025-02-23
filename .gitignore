@@ -1,8 +1,5 @@
 # Ignore test env
-testenv/
+.env
+venv/
+chroma_db
 
-#Another files
-*.pyc
-*.log
-.DS_Store
-__pycache__/

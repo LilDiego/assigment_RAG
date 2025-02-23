@@ -16,11 +16,13 @@ Este proyecto implementa un sistema basado en inteligencia artificial para proce
 │   ├── 📄 `chunking.py` - Divide el texto en fragmentos  
 │   ├── 📄 `generate_embeddings.py` - Genera embeddings e indexa con FAISS  
 │   ├── 📄 `search_answers.py` - Busca respuestas en FAISS  
-│   ├── 📄 `api.py` - API con FastAPI  
+│   ├── 📄 `api.py` - API con FastAPI
+│   ├── 📄 `openai_api.py` - API de OpenAI
+│   ├── 📄 `logging_config` - Log funciones
 ├── 📂 `vectorstore/` - Almacena los embeddings y el índice FAISS  
 ├── 📂 `frontend/` - Carpeta para la interfaz  
 │   └── 📄 `app.py` - Aplicación en Streamlit
-├── 📄 `gitignore` - Descripción general del proyecto  
+├── 📄 `gitignore` - Archivos ignorados
 
 # Pasos a seguir
 
